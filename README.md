@@ -58,7 +58,7 @@ Comportement :
 
 Notes et limitations :
 - Navigateur lancé en mode non headless par défaut (visibilité, débogage, comportement plus proche d’un usage humain)
-  l.53(p.chromium.launch(headless=False))
+  l.51(p.chromium.launch(headless=False))
   Mettre True pour passer en headless (automatisation silencieuse, exécution serveur, tâches planifiées)
 - Certains formulaires nécessitent des tokens dynamiques ou une session active (cookie)
 - Les paramètres doivent être adaptés au site ciblé
