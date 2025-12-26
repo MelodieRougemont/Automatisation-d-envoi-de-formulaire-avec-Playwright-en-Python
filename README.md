@@ -1,7 +1,7 @@
 # Automatisation d'envoi de formulaire avec Playwright en Python
 Script Python utilisant Playwright pour automatiser l’envoi de formulaires web via requêtes POST. Permet de tester et déboguer l’envoi de données, gérer les headers et cookies, et analyser les réponses JSON. Compatible Chromium, Firefox et WebKit.  
 
-# Fonctionnalités :
+## Fonctionnalités :
 - Envoi de requêtes POST avec données application/x-www-form-urlencoded
 - Personnalisation des headers HTTP
 - Simulation d’un navigateur réel via Playwright. Cela contourne certaines protections anti-bot basées sur l’environnement d’exécution.
