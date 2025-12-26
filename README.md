@@ -8,18 +8,18 @@ Script Python utilisant Playwright pour automatiser l’envoi de formulaires web
 - Analyse de la réponse serveur (statut HTTP, contenu JSON)
 - Compatible Chromium, Firefox et WebKit
 
-Prérequis :
+## Prérequis :
 - Python 3.9 ou supérieur (ici 3.14.0)
 - pip pour installer les modules (ici 25.3)
 - Connexion internet
 - Navigateurs Playwright : Chromium (Google chrome et Microsoft Edge), Firefox, WebKit (Safari)
 - Les chemins système et droits d’exécution doivent permettre à Playwright de lancer Chromium
 
-Installation module :
+## Installation module :
 pip install playwright
 playwright install
 
-Configuration :
+## Configuration :
 Modifier l’URL cible, le payload, les headers, le message json et si besoin les cookies selon l’environnement.
 
 URL :
@@ -50,13 +50,13 @@ Les cookies ne sont pas inclus par défaut. Certains formulaires peuvent en néc
 
 Exécution.
 
-Comportement :
+## Comportement :
 - Envoi de la requête POST
 - Vérification du statut HTTP (200 attendu)
 - Tentative de lecture de la réponse JSON
 - Affichage du résultat dans la console
 
-Notes et limitations :
+## Notes et limitations :
 - Navigateur lancé en mode non headless par défaut (visibilité, débogage, comportement plus proche d’un usage humain)
   l.51(p.chromium.launch(headless=False))
   Mettre True pour passer en headless (automatisation silencieuse, exécution serveur, tâches planifiées)
@@ -64,5 +64,5 @@ Notes et limitations :
 - Les paramètres doivent être adaptés au site ciblé
 - Usage réservé aux tests, au débogage et à l’automatisation contrôlée
 
-Licence :
+## Licence :
 Projet fourni à des fins éducatives et techniques. Le respect des conditions d’utilisation des sites ciblés relève de la responsabilité de l’utilisateur.
